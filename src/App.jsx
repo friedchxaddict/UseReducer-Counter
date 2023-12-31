@@ -25,10 +25,10 @@ function App() {
         <br />
         <br />
         <button onClick={() => dispatch({ type: 'increment' })}>
-          Increment
+          Increment it!
         </button>
         <button onClick={() => dispatch({ type: 'decrement' })}>
-          Decrement
+          Decrement it!
         </button>
         <button onClick={() => dispatch({ type: 'reset' })}>Reset</button>
       </div>
